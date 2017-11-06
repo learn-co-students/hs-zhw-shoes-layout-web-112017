@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+[class*="col-"] { /* anything with a class that has the value col- anywhere inside it */
+  margin-left: 2%;
+}
 
+.first {
+  margin-left: 0%;
+}
+
+.col-1 {
+  float: left;
+  margin-bottom: 1%;
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+}
+
+.col-3 {
+  width: 32%;
+  float: left;
+}
+
+.bottom {
+  margin-top: 2%;
+}
+
+* { /* tells your browser to include padding in width calc if it didn't already */
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
