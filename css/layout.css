@@ -9,6 +9,10 @@
   -moz-box-sizing: border-box;
 }
 
+body, html {
+  height: 100%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -24,4 +28,72 @@
 
 /* Posititoning Classes */
 
+* {
+  box-sizing: border-box;
+}
 
+#social {
+  clear: both;
+  position: fixed;
+}
+
+
+
+#summer {
+  display: block;
+  float: left;
+  width: 66%;
+  height: 100%;
+  margin: 0, auto;
+  background: none;
+}
+
+.milk_text {
+  padding: 1em 0 0;
+}
+
+#archive {
+  display: "block";
+  float: right;
+  width: 33%;
+  margin: 0, auto;
+  background: none;
+  height: 100%;
+}
+
+#shoe-1 {
+  display: block;
+  float: left;
+  width: 33%;
+  margin: 0, auto;
+  background: none;
+}
+
+#shoe-2 {
+  display: block;
+  float: left;
+  width: 33%;
+  margin: 0, auto;
+  background: none;
+}
+
+#shoe-3 {
+  display: block;
+  float: right;
+  width: 33%;
+  margin: 0 auto;
+  background: none;
+}
+
+
+
+.border_right {
+  display: block;
+  position: relative;
+  float: left;
+  width: 33%;
+  margin: 0 auto;
+  background: none;
+  align: right;
+  padding: 0 0 0 1em;
+}
