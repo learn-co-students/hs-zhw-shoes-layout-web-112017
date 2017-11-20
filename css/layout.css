@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+
 }
 
 .clear {
@@ -23,5 +24,28 @@
 }
 
 /* Posititoning Classes */
+ #summer {
+  float:left;
+  width: 65.33%;
+}
+#archive {
+  float:right;
+  width: 31.33%;
+}
+.deals{
+  display: inline-block;
+  max-width: 309px;
+  margin-top: 10px;
+  margin-right:8px;
+}
+.deals img {
+  height:250px;
+  width:250px;
+}
 
+.border_right {
+  display:inline-block;
+  width: 310px;
+  padding-right: 400px;
 
+}
